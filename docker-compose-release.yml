@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aspnetcoredemo:
+    image: registry.gitlab.com/ch-lee/aspnetcoredemo:latest
+    ports:
+     - "80:80"
+    

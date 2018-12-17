@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockeraspnetcoredemo:
+    build:
+      context: .
+      dockerfile: DockerAspNetCoreDemo/Dockerfile
+    image: dockeraspnetcoredemo
